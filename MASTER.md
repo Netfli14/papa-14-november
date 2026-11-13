@@ -1,0 +1,12 @@
+# A birthday album for Dad
+Audience: Dad and family, Russian, touch and mouse. One small personal gift, not a product.
+Visual thesis: warm paper, restrained dusty rose, ink grey. Oversized literary serif, handwritten pencil annotations, real family snapshots and generous margins. Uncoated-paper feeling without noise layers, gradients or repeated feature cards.
+Interaction thesis: choose November 14 in a calendar, unlock with a falling lock, open a personal greeting. Scroll to a three-way fork: chess left, wishes center, future letter right. Wishes flip through a tactile photo stack. Real local Stockfish plays black with UCI_LimitStrength at its minimum 1320 (about 1300, disclosed). All paths stay available regardless of chess outcome. Future letter goes to the specified email, activation dependency stated honestly.
+Allowed patterns: three branch links because explicitly requested; subtle staggered entry; photo stack rotations; one-time falling lock; SVG line fork and handwritten love note; envelope folds after accepted submission.
+Colors: paper #F5F1E9, off-white #FFFCF6, grey #E5E1DC, ink #353431, muted #6D6761, rose #C6647A, deep-rose #984258, pale-rose #F0DCE1, border #C9C1B7.
+Typography: Lora variable serif, Manrope variable sans. Body 16-18px, labels 11-13px, headings 38-72px, hero 100-156px. 400/500 body, 500/600 headings. No long dashes anywhere in displayed text.
+Spacing: 8, 12, 16, 24, 32, 48, 64, 96. Content max 1184px. Paper corners 2-8px, primary controls 999px. Four-side photo frame with a wider caption edge.
+Motion: hover 150ms, panel switch 280ms ease-out, photo turn 450ms ease-out, first unlock 1100ms. GSAP context for one-time entry and photo choreography. IntersectionObserver for reveal. Reduced motion skips travel/rotation, retains state changes. No infinite loops.
+
+## User-requested depth revision
+The user asked for visible depth and the animation used in their VentorMe project. Actual source was retrieved from Netfli14/Ventorme. DataRain's particle/vortex renderer is ported to DOM, preserving its depth physics, visibility pause and reduced-motion path. The exact Coverflow offset model is adapted for photo wishes. Main cover uses four real photos on foreground/middle/background planes, perspective, cursor tilt and scroll parallax. Calendar and letter use stacked physical sheets, shadows and restrained tilt. A pause control stops atmospheric movement. This updates the visual thesis at the user's request; palette and content stay fixed.

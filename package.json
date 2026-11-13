@@ -1,0 +1,4 @@
+{
+ "name":"papa-november-14","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs"},
+ "dependencies":{"chess.js":"1.4.0","gsap":"3.13.0","stockfish":"17.1.0","esbuild":"0.25.12","@fontsource-variable/lora":"5.2.8","@fontsource-variable/manrope":"5.2.8"}
+}
