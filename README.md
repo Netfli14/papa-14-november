@@ -6,7 +6,7 @@ Personal birthday gift for November 14, 2026. Static HTML/CSS, GSAP, chess.js an
 
 Install dependencies with `npm ci`, run `npm run build`, then `node scripts/check.mjs`. The output is `dist/`. Serve that directory through HTTP. All local URLs work from either a domain root or a GitHub Pages project subdirectory.
 
-The workflow in `.github/workflows/pages.yml` builds and verifies every push. GitHub Pages publication can be started manually after configuring the repository. See [GitHub Pages setup](docs/github-pages.md).
+The workflow in `.github/workflows/pages.yml` builds and verifies pull requests. After GitHub Pages is enabled in the repository settings, merging into `main` automatically builds and publishes the site. Manual publication from Actions remains available. See [GitHub Pages setup](docs/github-pages.md).
 
 ## Experience
 
